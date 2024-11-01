@@ -25,10 +25,10 @@
     <link href="{{asset('css/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css')}}" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('css/template/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('css/template/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
@@ -58,7 +58,7 @@
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('js/template/main.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 
 </html>
