@@ -13,11 +13,18 @@
             <div class="navbar-nav ms-auto py-0 pe-4">
                 <a href="/" class="nav-item nav-link {{Request::path() == '/' ? 'active' : ''}}" aria-current="page">Home</a>
                 <a href="/about" class="nav-item nav-link {{Request::path() == 'about' ? 'active' : ''}}">About</a>
-                <a href="about.html" class="nav-item nav-link">Package</a>
-                <a href="menu.html" class="nav-item nav-link">Menu Gallery</a>
-                <a href="menu.html" class="nav-item nav-link">career</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="/package" class="nav-item nav-link {{Request::path() == 'package' ? 'active' : ''}}">Paket</a>
+                <div class="nav-item dropdown mb-2">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/menuGallery" class="dropdown-item {{Request::path() == 'menuGallery' ? 'active' : ''}}">Menu Gallery</a>
+                        <a href="/jobList" class="dropdown-item {{Request::path() == 'career' ? 'active' : ''}}">Career</a>
+                        <a href="/testimonial" class="dropdown-item {{Request::path() == 'testimonial' ? 'active' : ''}}">Testimonial</a>
+                        <a href="/contact" class="dropdown-item {{Request::path() == 'contact' ? 'active' : ''}}">Contact</a>
+                    </div>
+                </div>
             </div>
+            <a href="/order" class="btn btn-primary py-2 px-4">Order Now</a>
         </div>
     </nav>
 </div>

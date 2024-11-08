@@ -8,7 +8,7 @@
                     <div class="col-lg-5 text-center text-lg-start">
                         <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
                         <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <a href="/order" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                        <a href="/order" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Order Sekarang</a>
                     </div>
                     <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                         <img class="img-fluid" src="{{asset('assets/images/image (1).png')}}" alt="" style="width: 500px">
@@ -84,7 +84,7 @@
                         <div class="row g-4 mb-4">
                             <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-date="2024-11-19 00:00" >Waktu Berakhir</a>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Pesan Sekarang</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="/order">Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
